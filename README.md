@@ -1,59 +1,70 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 
-# XRD-ViT-Chem
+# Chem-XRD
 
-### Dependency
-- Python	3.8.18 (KJ) / 3.11.8 (FS)
-- Pytorch 1.13.1 (KJ)
-- numpy	1.24.3 (KJ,FS)
-- xrayutilities	1.7.4 (KJ) / 1.7.8 (FS)
-- pymatgen	2023.8.10 (KJ)
-- transformers 4.44.2 (KJ)
-- scikit-learn 1.3.2 (KJ)
+![alt text](https://github.com/PV-Lab/chem-xrd/blob/main/figure/Schematic.png?raw=true)
 
-## Goal
-- Natural language (text embedding) + XRD raw data (XRD embedding)
-- Text embedding -> elements/expected compound (input prior), sparse coding
-- XRD embedding -> 1d or 2d (nx1) embedding, continuous
+- [Chem-XRD](#chem-xrd)
+  * [System requirements](#system-requirements)
+    + [Software dependencies](#software-dependencies)
+    + [Tested enviornment](#tested-enviornment)
+  * [Installation](#installation)
+    + [Install Anaconda (15-30 min)](#install-anaconda--15-30-min-)
+    + [Create and activate new enviornment in anaconda prompt (5-10 min)](#create-and-activate-new-enviornment-in-anaconda-prompt--5-10-min-)
+    + [Install dependencies through pip](#install-dependencies-through-pip)
+    + [Setting up Pytorch](#setting-up-pytorch)
+  * [License](#license)
 
-## Dataset
-### New cif for mix A/B/X perovskite
-- [x] Data collection (Cs/FA/MA, Pb/Sn, Cl/Br/I)
-- [x] Combination search
-- [x] Mixed cif generation, step size 20% across composition gradient
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-### Preprocess
-- [x] Lattice strain between -0.002~+0.002 for a, b, c; Step size 0.001
-- [x] Label 1 - Element (EDS) or precursor label (e.g. MA Cs Pb Br as text input)
-- [x] Label 2 - Chemical formula (e.g. gamma-CsPbI3 as formal phase name)
-- [x] Dataset creation (save/load) for i) new cif and ii) ICSD
+## System requirements
 
-### Impurity and substrate study
-- [ ] Data collection: target material, potential impurities or substrates, corresponding ICSD for all materials, references
+### Software dependencies
+- Python	3.8.18 / 3.11.8
+- Pytorch 1.13.1
+- numpy	1.24.3
+- xrayutilities	1.7.4 / 1.7.8
+- pymatgen	2023.8.10
+- transformers 4.44.2
+- scikit-learn 1.3.2
 
-### Dataloader
-- [x] Expand from nonzero to full range XRD
-- [x] Preferred orientation
-- [x] Random peak intensity
-- [x] Random crystal size
-- [x] Random strain
-- [x] Mixing of compounds, with random ratio
-- [x] Background noise
+### Tested enviornment
+Windows 11, version 23H2
+NVIDIA GeForce GTX 3080/4090
 
-## Training
-- [x] Precursor (text input)
-- [x] Visual embedding dim + sequence length (Visual input)
-- [x] Multi-class multi-labels (output)
-- [x] Loss: CrossEntropyLoss (single-label); BCEWithLogitsLoss (multi-label)
+## Installation
 
-## Evaluation
-- [x] Output: class label + probability (multi-label classification) -> natural language description
-- [x] Confusion matrix
-- [x] Top5 accuracy (precision recall F1)
-- [x] XRD-XRD self attention
-- [x] Precursor-XRD self attention
-- [x] Precursor-Precursor self attention
-- [x] Compare: No prior / EDS prior / precursor prior
+### Install Anaconda (15-30 min)
+https://docs.anaconda.com/anaconda/install/
 
-## Extra / bonus
-- [ ] Various data range
+### Create and activate new enviornment in anaconda prompt (5-10 min)
+```bash
+conda create -n chem_xrd python=3.8.18
+```
+```bash
+conda activate chem_xrd
+```
+### Install dependencies through pip
+```bash
+pip install numpy==1.24.3
+pip install xrayutilities==1.7.4
+pip install pymatgen==2023.8.10
+pip install transformers==4.44.2
+pip install scikit-learn==1.3.2
+```
+
+### Setting up Pytorch
+https://pytorch.org/get-started/previous-versions/
+To install the CPU version on Linux and Windows
+```bash
+pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
+```
+OR To install the GPU version (which require a working GPU with CUDA 11.7 and cuDNN >=8.5.0)
+```bash
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+```
+
+## License
+
+[Creative Commons Attribution-NonCommercial (CC BY-NC 4.0)]
+https://creativecommons.org/licenses/by-nc/4.0/
