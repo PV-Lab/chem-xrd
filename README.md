@@ -4,18 +4,17 @@
 
 ![alt text](https://github.com/PV-Lab/chem-xrd/blob/main/figure/Schematic.png?raw=true)
 
-- [Chem-XRD](#chem-xrd)
-  * [System requirements](#system-requirements)
-    + [Software dependencies](#software-dependencies)
-    + [Tested enviornment](#tested-enviornment)
-  * [Installation](#installation)
-    + [Install Anaconda (15-30 min)](#install-anaconda--15-30-min-)
-    + [Create and activate new enviornment in anaconda prompt (5-10 min)](#create-and-activate-new-enviornment-in-anaconda-prompt--5-10-min-)
-    + [Install dependencies through pip](#install-dependencies-through-pip)
-    + [Setting up Pytorch](#setting-up-pytorch)
-  * [License](#license)
+## Table of Contents
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+- [System requirements](#system-requirements)
+  + [Software dependencies](#software-dependencies)
+  + [Tested enviornment](#tested-enviornment)
+- [Installation](#installation)
+  + [Install Anaconda (15-30 min)](#install-anaconda--15-30-min-)
+  + [Create and activate new enviornment in anaconda prompt (5-10 min)](#create-and-activate-new-enviornment-in-anaconda-prompt--5-10-min-)
+  + [Install dependencies through pip](#install-dependencies-through-pip)
+  + [Setting up Pytorch](#setting-up-pytorch)
+- [License](#license)
 
 ## System requirements
 
@@ -29,8 +28,8 @@
 - scikit-learn 1.3.2
 
 ### Tested enviornment
-Windows 11, version 23H2
-NVIDIA GeForce GTX 3080/4090
+- Windows 11, version 23H2
+- NVIDIA GeForce GTX 3080/4090
 
 ## Installation
 
@@ -54,15 +53,15 @@ pip install scikit-learn==1.3.2
 ```
 
 ### Setting up Pytorch
-https://pytorch.org/get-started/previous-versions/
 To install the CPU version on Linux and Windows
 ```bash
 pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
 ```
-OR To install the GPU version (which require a working GPU with CUDA 11.7 and cuDNN >=8.5.0)
+OR To install the GPU version (with CUDA==11.7 and cuDNN>=8.5.0)
 ```bash
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 ```
+See also: https://pytorch.org/get-started/previous-versions/
 
 ## License
 
