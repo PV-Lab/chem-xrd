@@ -1,0 +1,127 @@
+
+#(C) 2024 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_238610-ICSD
+_database_code_ICSD 238610
+_audit_creation_date 2016-02-01
+_audit_update_record 2016-08-01
+_chemical_name_common 'Methyl ammonium lead triiodide'
+_chemical_formula_structural '(C H3 N H3) Pb I3'
+_chemical_formula_sum 'C1 H6 I3 N1 Pb1'
+_exptl_crystal_density_diffrn 4.15
+_diffrn_ambient_temperature 253.
+_citation_title
+
+;
+Dynamic optical properties of C H3 N H3 Pb I3 single crystals as revealed by
+one- and two-photon excited photoluminescence measurements
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of the American Chemical Society' 2015 137 10456 10459 JACSAT
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Yamada, Yasuhiro'
+primary 'Yamada, Takumi'
+primary 'Phuong, Le Quang'
+primary 'Maruyama, Naoki'
+primary 'Nishimura, Hidetaka'
+primary 'Wakamiya, Atsushi'
+primary 'Murata, Yasujiro'
+primary 'Kanemitsu, Yoshihiko'
+_cell_length_a 8.8392(3)
+_cell_length_b 8.8392(3)
+_cell_length_c 12.6948(5)
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 991.86
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'I 4/m c m'
+_space_group_IT_number 140
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'y, x, -z+1/2'
+2 '-y, -x, -z+1/2'
+3 '-y, x, -z'
+4 'y, -x, -z'
+5 'x, -y, -z+1/2'
+6 '-x, y, -z+1/2'
+7 'x, y, -z'
+8 '-x, -y, -z'
+9 '-y, -x, z+1/2'
+10 'y, x, z+1/2'
+11 'y, -x, z'
+12 '-y, x, z'
+13 '-x, y, z+1/2'
+14 'x, -y, z+1/2'
+15 '-x, -y, z'
+16 'x, y, z'
+17 'y+1/2, x+1/2, -z'
+18 '-y+1/2, -x+1/2, -z'
+19 '-y+1/2, x+1/2, -z+1/2'
+20 'y+1/2, -x+1/2, -z+1/2'
+21 'x+1/2, -y+1/2, -z'
+22 '-x+1/2, y+1/2, -z'
+23 'x+1/2, y+1/2, -z+1/2'
+24 '-x+1/2, -y+1/2, -z+1/2'
+25 '-y+1/2, -x+1/2, z'
+26 'y+1/2, x+1/2, z'
+27 'y+1/2, -x+1/2, z+1/2'
+28 '-y+1/2, x+1/2, z+1/2'
+29 '-x+1/2, y+1/2, z'
+30 'x+1/2, -y+1/2, z'
+31 '-x+1/2, -y+1/2, z+1/2'
+32 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Pb2+ 2
+I1- -1
+C2- -2
+H1+ 1
+N3- -3
+H1+ 1
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Pb1 Pb2+ 4 c 0. 0. 0.5 0.0377(5) 1
+I1 I1- 4 a 0. 0. 0.25 0.0717(11) 1
+I2 I1- 8 h 0.2942(2) 0.2058(2) 0.5 0.0741(8) 1
+C1 C2- 32 m 0.544(10) 0.921(12) 0.784(8) 0.05(2) 0.13
+H1 H1+ 32 m 0.6092 1.0021 0.7699 0.08 0.13
+H2 H1+ 32 m 0.5573 0.8455 0.7246 0.08 0.13
+H3 H1+ 32 m 0.5515 0.8752 0.8463 0.08 0.13
+N1 N3- 32 m 0.389(10) 0.987(14) 0.767(9) 0.05(2) 0.13
+H4 H1+ 32 m 0.3247 0.9139 0.7303 0.082 0.13
+H5 H1+ 32 m 0.3814 1.0681 0.7343 0.082 0.13
+H6 H1+ 32 m 0.3393 0.9908 0.831 0.082 0.13
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb1 Pb2+ 0.0372(6) 0.0372(6) 0.0385(9) 0. 0. 0.
+I1 I1- 0.0919(16) 0.0919(16) 0.0314(14) 0. 0. 0.
+I2 I1- 0.0640(10) 0.0640(10) 0.0943(15) -0.0337(10) 0. 0.
+C1 C2- 0.05(2) 0.05(2) 0.05(2) 0.000(9) 0.001(9) 0.000(9)
+N1 N3- 0.06(2) 0.05(2) 0.05(2) 0.001(9) -0.002(9) 0.001(9)
+#End of TTdata_238610-ICSD

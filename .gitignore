@@ -1,0 +1,7 @@
+*.ipynb_checkpoints
+*.xlsx
+*-*.ipynb
+Plots.ipynb
+models/*
+baselines/*
+pretrained_models/*/*.safetensors

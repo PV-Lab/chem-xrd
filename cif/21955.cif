@@ -1,0 +1,82 @@
+
+#(C) 2024 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_21955-ICSD
+_database_code_ICSD 21955
+_audit_creation_date 2019-08-01
+_chemical_name_common 'Cesium triiodoplumbate - gamma'
+_chemical_formula_structural 'Cs Pb I3'
+_chemical_formula_sum 'Cs1 I3 Pb1'
+_chemical_name_structure_type Perovskite#GdFeO3
+_exptl_crystal_density_diffrn 5.02
+_diffrn_ambient_temperature 298.
+_citation_title
+
+;
+Thermodynamically stable orthorhombic gamma-CsPbI3 thin films for
+high-performance photovoltaics
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of the American Chemical Society' 2018 140 11716 11725 JACSAT
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Zhao, Boya'
+primary 'Jin, Shi-Feng'
+primary 'Huang, Sheng'
+primary 'Liu, Ning'
+primary 'Ma, Jing-Yuan'
+primary 'Xue, Ding-Jiang'
+primary 'Han, Qiwei'
+primary 'Ding, Jie'
+primary 'Ge, Qian-Qing'
+primary 'Feng, Yaqing'
+primary 'Hu, Jin-Song'
+_cell_length_a 8.6464(14)
+_cell_length_b 8.8182(17)
+_cell_length_c 12.520(2)
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 954.59
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'P b n m'
+_space_group_IT_number 62
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-x+1/2, y+1/2, z'
+2 'x, y, -z+1/2'
+3 'x+1/2, -y+1/2, z+1/2'
+4 '-x, -y, -z'
+5 'x+1/2, -y+1/2, -z'
+6 '-x, -y, z+1/2'
+7 '-x+1/2, y+1/2, -z+1/2'
+8 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Cs1+ 1
+Pb2+ 2
+I1- -1
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Cs1 Cs1+ 4 c 0.9923(15) 1.0451(19) 0.25 0.286(8) 1.
+Pb1 Pb2+ 4 b 0.5 0. 0. 0.207(4) 1.
+I1 I1- 4 c 0.0661(12) 0.5052(19) 0.25 0.259(9) 1.
+I2 I1- 8 d 0.8030(7) 0.2033(12) 0.0208(9) 0.211(5) 1.
+#End of TTdata_21955-ICSD

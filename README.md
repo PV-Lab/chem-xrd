@@ -7,13 +7,7 @@
 ## Table of Contents
 
 - [System requirements](#system-requirements)
-  + [Software dependencies](#software-dependencies)
-  + [Tested enviornment](#tested-enviornment)
 - [Installation](#installation)
-  + [Install Anaconda (15-30 min)](#install-anaconda--15-30-min-)
-  + [Create and activate new enviornment in anaconda prompt (5-10 min)](#create-and-activate-new-enviornment-in-anaconda-prompt--5-10-min-)
-  + [Install dependencies through pip](#install-dependencies-through-pip)
-  + [Setting up Pytorch](#setting-up-pytorch)
 - [License](#license)
 
 ## System requirements
@@ -53,11 +47,11 @@ pip install scikit-learn==1.3.2
 ```
 
 ### Setting up Pytorch
-To install the CPU version on Linux and Windows
+Option 1: to install the CPU version on Linux and Windows
 ```bash
 pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
 ```
-OR To install the GPU version (with CUDA==11.7 and cuDNN>=8.5.0)
+Option 2: to install the GPU version (with CUDA==11.x and cuDNN>=8.5.0)
 ```bash
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 ```
