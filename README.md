@@ -20,6 +20,7 @@
 - pymatgen	2023.8.10
 - transformers 4.44.2
 - scikit-learn 1.3.2
+- scipy 1.10.1
 
 ### Tested enviornment
 - Windows 11, version 23H2
@@ -44,6 +45,7 @@ pip install xrayutilities==1.7.4
 pip install pymatgen==2023.8.10
 pip install transformers==4.44.2
 pip install scikit-learn==1.3.2
+pip install scikit-learn==1.10.1
 ```
 
 ### Setting up Pytorch
