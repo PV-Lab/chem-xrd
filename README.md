@@ -2,13 +2,14 @@
 
 # Chem-XRD
 
+Multimodal transformers with chemical priors improve the accuracy of phase classification from X-ray diffraction spectra
+
 ![alt text](https://github.com/PV-Lab/chem-xrd/blob/main/figure/Schematic.png?raw=true)
 
 ## Table of Contents
 
 - [System requirements](#system-requirements)
 - [Installation](#installation)
-- [License](#license)
 
 ## System requirements
 
@@ -58,8 +59,3 @@ Option 2: to install the GPU version (with CUDA==11.x and cuDNN>=8.5.0)
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 ```
 See also: https://pytorch.org/get-started/previous-versions/
-
-## License
-
-[Creative Commons Attribution-NonCommercial (CC BY-NC 4.0)]
-https://creativecommons.org/licenses/by-nc/4.0/
