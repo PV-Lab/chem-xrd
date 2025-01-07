@@ -30,10 +30,10 @@
 
 ## 2. Installation
 
-### 2.1 Install Anaconda (15-30 min)
+### 2.1 Install Anaconda
 https://docs.anaconda.com/anaconda/install/
 
-### 2.2 Create and activate new enviornment in anaconda prompt (5-10 min)
+### 2.2 Create and activate new enviornment in anaconda prompt
 ```bash
 conda create -n chem_xrd python=3.8.18
 ```
@@ -63,8 +63,13 @@ See also: https://pytorch.org/get-started/previous-versions/
 
 ## 3. Usage
 
-### 3.1 Dataset preprocessing (skippable)
-Run [Preprocess.ipynb](Preprocess.ipynb)
+### 3.1 Dataset preprocessing (30-60 min, skippable)
+Run [Preprocess.ipynb](Preprocess.ipynb).
+The notebook demonstrates the generation of new alloyed CIF files, the application of lattice strains, and the process of dataset generation.
 
-### 3.2 Model training (skippable)
-Run [Train.ipynb](Train.ipynb)
+### 3.2 Model training (2 days, skippable)
+Run [Train.ipynb](Train.ipynb).
+The notebook demonstrates model training for both single-phase and multi-phase scenarios. In single-phase classification, the model predicts only the material ID. In multi-phase classification, the model predicts both the material ID(s) and the number of phases present.
+
+### 3.3 Model testing (10 min)
+Run [Evaluation.ipynb](Evaluation.ipynb).
