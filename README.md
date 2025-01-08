@@ -71,5 +71,5 @@ The notebook demonstrates the generation of new alloyed CIF files, the applicati
 Run [Train.ipynb](Train.ipynb).
 The notebook demonstrates model training for both single-phase and multi-phase scenarios. In single-phase classification, the model predicts only the material ID. In multi-phase classification, the model predicts both the material ID(s) and the number of phases present.
 
-### 3.3 Model testing (10 min)
+### 3.3 Model testing (15 min)
 Run [Evaluation.ipynb](Evaluation.ipynb).
