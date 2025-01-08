@@ -66,6 +66,7 @@ See also: https://pytorch.org/get-started/previous-versions/
 ### 3.1 Dataset preprocessing (30-60 min, skippable)
 Run [Preprocess.ipynb](Preprocess.ipynb).
 The notebook shows the generation of new alloyed CIF files, the application of lattice strains, and the process of dataset generation.
+For the CIF selection process, refer to [ICSD_down_selection.xlsx](ICSD_down_selection.xlsx) for further information.
 
 ### 3.2 Model training (2 days, skippable)
 Run [Train.ipynb](Train.ipynb).
