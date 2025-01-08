@@ -65,11 +65,12 @@ See also: https://pytorch.org/get-started/previous-versions/
 
 ### 3.1 Dataset preprocessing (30-60 min, skippable)
 Run [Preprocess.ipynb](Preprocess.ipynb).
-The notebook demonstrates the generation of new alloyed CIF files, the application of lattice strains, and the process of dataset generation.
+The notebook shows the generation of new alloyed CIF files, the application of lattice strains, and the process of dataset generation.
 
 ### 3.2 Model training (2 days, skippable)
 Run [Train.ipynb](Train.ipynb).
-The notebook demonstrates model training for both single-phase and multi-phase scenarios. In single-phase classification, the model predicts only the material ID. In multi-phase classification, the model predicts both the material ID(s) and the number of phases present.
+The notebook shows model training for both single-phase and multi-phase scenarios. In single-phase classification, the model predicts only the material ID. In multi-phase classification, the model predicts both the material ID(s) and the number of phases present.
 
 ### 3.3 Model testing (15 min)
 Run [Evaluation.ipynb](Evaluation.ipynb).
+The notebook shows single-phase and multi-phase classifications with Chem-XRD models on simulated and experimental datasets, reproducing figures in the main text.
