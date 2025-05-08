@@ -16,7 +16,7 @@
 250736	FAPbI3	alpha-FAPbI3
 33037	MAPbBr3	tetragonal-MAPbBr3
 231017	CsPbBr3	cubic-CsPbBr3
-250735	MAPbI3	cubic-MAPbI3
+250735	MAPbI3	alpha-MAPbI3
 201251	CsPbCl3	cubic-CsPbCl3
 241415	MAPbCl3	orthorhombic-MAPbCl3
 243734	CsPbCl3	orthorhombic-CsPbCl3

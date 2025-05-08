@@ -75,3 +75,7 @@ The notebook shows model training for both single-phase and multi-phase scenario
 ### 3.3 Model testing (15 min)
 Run [Evaluation.ipynb](Evaluation.ipynb).
 The notebook shows single-phase and multi-phase classifications with Chem-XRD models on simulated and experimental datasets, reproducing figures in the main text.
+
+### 3.4 Visualization and interpretation (5 min)
+Run [Interpretation.ipynb](Interpretation.ipynb).
+The notebook includes t-SNE visualizations of the training datasets, as well as interpretations of the elemental and structural contributions in the Chem-XRD models, reproducing figures in the main text and the Supplementary Information (SI).
