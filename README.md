@@ -28,7 +28,7 @@
 - Windows 11, version 23H2
 - NVIDIA GeForce GTX 3080/4090
 
-## 2. Installation
+## 2. Installation (10-15 min)
 
 ### 2.1 Install Anaconda
 https://docs.anaconda.com/anaconda/install/
