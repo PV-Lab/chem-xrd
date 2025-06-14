@@ -47,7 +47,6 @@ pip install xrayutilities==1.7.4
 pip install pymatgen==2023.8.10
 pip install transformers==4.44.2
 pip install scikit-learn==1.3.2
-pip install scikit-learn==1.10.1
 ```
 
 ### 2.4 Setting up Pytorch
@@ -62,6 +61,8 @@ pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --e
 See also: https://pytorch.org/get-started/previous-versions/
 
 ## 3. Usage
+
+Before use, download the XRD dataset and pretrained models at https://drive.google.com/file/d/1vBlm35L_PZZ6wtZlvAe_E2jjcrLlXTob, and place the contents in the "cif" and "pretrained_model" directories, respectively.
 
 ### 3.1 Dataset preprocessing (30-60 min, skippable)
 Run [Preprocess.ipynb](Preprocess.ipynb).
